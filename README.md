@@ -52,3 +52,5 @@ streamlit run streamlit_app.py
 ```
 
 Open http://localhost:8501 in your browser to use the web UI.
+
+**Live Demo**: https://industry-market-study-agent.streamlit.app/
