@@ -1,0 +1,5 @@
+# Minimal dependencies; LLM integration optional
+markdown
+streamlit
+requests
+beautifulsoup4

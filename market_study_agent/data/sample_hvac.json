@@ -1,0 +1,35 @@
+{
+  "executive_summary": "The commercial HVAC services sector shows stable demand driven by recurring maintenance contracts and regulatory-driven retrofits. Multiples are compressed for very small deals but expand with scale and recurring revenue.",
+  "ebitda_multiples": {
+    "$2-<$5M": {"range": "3.0-4.5", "median": 3.8, "count": 24},
+    "$5-<$10M": {"range": "4.5-6.0", "median": 5.2, "count": 37},
+    "$10-<$15M": {"range": "5.5-7.0", "median": 6.1, "count": 15},
+    "$15-<$25M": {"range": "6.0-8.0", "median": 6.8, "count": 9}
+  },
+  "value_drivers": [
+    "Percentage of recurring maintenance revenue",
+    "Customer concentration (low concentration preferred)",
+    "Service contract length and transferability",
+    "Equipment ownership vs. leasing",
+    "Geographic footprint and regional regulatory exposure",
+    "Quality of installer teams and documented processes"
+  ],
+  "recent_transactions": [
+    {"buyer": "Regional PE Fund A", "target": "Midwest HVAC Co.", "notes": "$12M enterprise value, strategic roll-up", "source": "Press release"},
+    {"buyer": "Strategic Facilities Services", "target": "Commercial HVAC Solutions", "notes": "Add-on to national platform", "source": "Trade press"}
+  ],
+  "ideal_buyers": [
+    {"name": "Platform HVAC PE funds", "rationale": "Look for roll-up opportunities with add-on appetite"},
+    {"name": "Strategic facilities service providers", "rationale": "Want to expand service coverage and add recurring contracts"}
+  ],
+  "possible_buyers": [
+    "Regional private equity groups",
+    "National service platform strategics",
+    "Family offices seeking cash-flow businesses"
+  ],
+  "sources": [
+    "Industry trade press",
+    "BizBuySell sample comps",
+    "Deal announcements and press releases"
+  ]
+}
