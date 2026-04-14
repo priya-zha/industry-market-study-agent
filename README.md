@@ -17,9 +17,15 @@ Files of interest:
 - `market_study_agent/data/sample_hvac.json` - Sample data for HVAC industry
 - `outputs/sample_market_study_hvac.md` - Generated sample report (after running)
 
-Notes:
-- This MVP uses curated sample data for select industries (HVAC, Landscaping, Roofing). For other industries, add a sample_{industry}.json file under market_study_agent/data/.
-- Data sources used for samples: BizBuySell, Mergr, trade press, and industry reports.
+## Data Sources and Report Assembly
+
+**Data Sources**: The agent uses curated sample data from public sources including BizBuySell listings, Mergr free tier deals, trade press articles, and industry association reports. For production, it can integrate APIs from Crunchbase, SEC Form ADV CSV, SBA SBIC Directory, and others listed in the challenge.
+
+**How the Agent Assembles the Report**: 
+- The agent loads industry-specific JSON data files (e.g., `sample_hvac.json`) containing structured information on multiples, value drivers, transactions, buyers, and sources.
+- It processes this data through `generator.py`, which formats the content into a professional Markdown report with sections for Executive Summary, EBITDA Multiples, Value Drivers, Recent Transactions, Ideal Buyers, Possible Buyers, and Sources.
+- The CLI (`cli.py`) or web UI (`streamlit_app.py`) triggers the generation, saving the output as a downloadable Markdown file.
+- For extensibility, `data_fetcher.py` includes placeholders for real-time scraping from Mergr, Crunchbase, and BizBuySell to populate transaction data dynamically.
 
 ## Sample Market Study Output
 
